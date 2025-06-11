@@ -1,12 +1,12 @@
 import Header from './Header.jsx'
-import Login from './Login.jsx'
+import Student from './Student.jsx'
 
 function App() {
   return(
     <>
       <Header/>
-      <Login isLoggedIn={true}/>
-
+      <Student/>
+    
       
     </>
   );
