@@ -10,6 +10,7 @@ header {
   align-items: center;
   background-color: #1a1a1a;
   padding: 15px 30px;
+  margin-bottom: 100px;
 }
 
 .logo img {
@@ -53,4 +54,17 @@ header {
   .logo img {
     height: 40px;
   }
+}
+
+.success{
+    padding: 24px 32px;
+    background-color: green;
+}
+.fail{
+    padding: 24px 32px;
+    background-color: red;
+}
+.success, .fail {
+  color: white;
+  text-align: center;
 }
