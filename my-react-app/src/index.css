@@ -81,3 +81,12 @@ header {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+.btn{
+  background-color: rgb(81, 81, 224);
+  color: white;
+  border:  none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
