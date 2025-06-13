@@ -1,44 +1,65 @@
 import React, {useState} from 'react';
 
 function Component() {
+    const [name, setName] = useState('Guest');
+    const [quantity, setQuantity] = useState(1);
+    const [payment, setPayment] = useState('');
+    const [shipping, setShipping] = useState('Pick up');
 
-    const [count, setCount] = useState(0);
-    const [title, setTitle] = useState("Start Count");
-
-
-    const Increment = () => {
-        if(count < 10){
-            setCount(count + 1);
-            setTitle("Count is Incremented");
-        }else{
-            setTitle("Reach maximum limit of 10");
-        }
+    const handleChange = () => {
+        setName(event.target.value);
     }
 
-    const Decrement = () => {
-        if(count >0){
-            setCount(count - 1);
-            setTitle("Count is Decremented");
-        }else{
-            setTitle("Count is already Zero");
-        }
+    const handleQuantity = () => {
+        setQuantity(event.target.value);
     }
 
-    const Reset = () => {
-        setCount(0);
-        setTitle("Count is Reset to Zero");
+    const handlePayment = () => {
+        setPayment(event.target.value);
     }
+
+    const handleShipping = () => {
+        setShipping(event.target.value);
+    }
+
 
   return (
     <div className="parent">
-        <h1>{title}</h1>
-        <p>number is: {count}</p>
+        <h1>On change lesson:</h1>
+        <br />
+        <br />
 
-        <div className="buttons">
-            <button onClick={Increment} >Increment</button>
-            <button onClick={Decrement} >Decrement</button>
-            <button onClick={Reset} >Reset</button>
-        </div>
+        <input type="text" value={name} onChange={handleChange}/>
+        <p>Name: {name}</p><br />
+
+        <input type="number" value={quantity} onChange={handleQuantity}/>
+        <p>Quantity: {quantity}</p><br />
+
+        <select name="payment" onChange={handlePayment}>
+            <option value="">Select Payment</option>
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="Giftcard">Giftcard</option>
+        </select>
+        <p>Payment method: {payment}</p>
+        <br />
+
+        <label>
+            <input  type="radio"
+                    value="Pick up"
+                    checked={shipping === 'Pick up'} 
+                    onChange={handleShipping}/>Pick up
+        </label>
+        <br />
+
+        <label>
+            <input type="radio" 
+                    value="Delivery"
+                    checked={shipping === 'Delivery'} 
+                    onChange={handleShipping}/>Delivery
+        </label>
+
+        <p>Shipping: <strong>{shipping}</strong></p>
     </div>
   );
 }
