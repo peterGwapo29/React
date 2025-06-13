@@ -3,22 +3,45 @@
 
 function Button(){
 
-    const btn = document.querySelector('.btn');
-    const handClick = () => {
-        if(btn.textContent === 'Click me!'){
-            btn.textContent = 'Clicked!';
-            btn.classList.add('clicked');
-            btn.style.backgroundColor = 'Green';
-        }else{
-            btn.textContent = 'Click me!';
-            btn.style.backgroundColor = 'rgb(81, 81, 224)';
+    const colors = [
+        {
+            id: 1,
+            color: red,
+        },
+        {
+            id: 2,
+            color: blue,
+        },
+        {
+            id: 3,
+            color: green,
+        },
+        {
+            id: 4,
+            color: orange,
+        },
+        {
+            id: 5,
+            color: black,
         }
-    }
+
+    ];
+   
+    const colorList = colors.map(corol => <li key={corol.id}>
+                                                    {corol.color} </li>
+    );
 
 
     return (
         <>
-        <button className="btn" onClick={handClick}>Click me!</button>
+             <main className="main-container">
+                <div className="content">
+                    <h1>Colors</h1>
+                    <div className="log">
+                    <ol>{colorList}</ol>
+                    </div>
+                </div>
+            </main>
         </>
     );
 }

@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -89,4 +92,17 @@ header {
   padding: 8px 16px;
   border-radius: 8px;
   cursor: pointer;
+}
+.buttons{
+  display: flex;
+  gap: 20px;
+}
+.buttons button{
+  background-color: rgb(81, 81, 224);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
 }
