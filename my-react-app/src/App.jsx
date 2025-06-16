@@ -4,6 +4,7 @@ import Header from './Header.jsx'
 import Component from './Component.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import MyComponent from './MyComponent.jsx'
+import Food from './Food.jsx'
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
     <br />
     <ColorPicker/>
     <MyComponent/>
+    <Food/>
+    
       
     </>
   );
