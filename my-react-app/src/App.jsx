@@ -3,6 +3,8 @@ import Header from './Header.jsx'
 // import Button from './Button.jsx'
 import Component from './Component.jsx'
 import ColorPicker from './ColorPicker.jsx'
+import MyComponent from './MyComponent.jsx'
+
 
 function App() {
   return(
@@ -13,6 +15,7 @@ function App() {
     <Component/>
     <br />
     <ColorPicker/>
+    <MyComponent/>
       
     </>
   );
