@@ -5,6 +5,7 @@ import Component from './Component.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import MyComponent from './MyComponent.jsx'
 import Food from './Food.jsx'
+import Car from './Car.jsx'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <ColorPicker/>
     <MyComponent/>
     <Food/>
+    <Car/>
     
       
     </>
