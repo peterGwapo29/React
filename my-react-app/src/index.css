@@ -122,7 +122,7 @@ header {
 } */
 
 
-.myTodos {
+/* .myTodos {
     max-width: 500px;
     margin: 2rem auto;
     padding: 2rem;
@@ -199,4 +199,29 @@ header {
     flex-grow: 1;
     margin-right: 1rem;
     word-wrap: break-word;
+} */
+
+/* //Digital clock */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center;      /* vertical center */
+  background: url('assets/image/madara.png') no-repeat center center/cover;
+}
+
+.digital-clock {
+  color: #ebebeb;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 6rem;
+  padding: 20px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #2f2f2f;
+  text-align: center;
+  text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.5);
 }

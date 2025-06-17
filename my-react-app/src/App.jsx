@@ -8,7 +8,8 @@
 // import Car from './Car.jsx'
 // import Foods from './Foods.jsx'
 // import ToDoList from './ToDoList.jsx'
-import EffectUse from "./EffectUse";
+// import EffectUse from "./EffectUse";
+import DigitalClock from "./DigitalClock";
 
 
 function App() {
@@ -25,8 +26,8 @@ function App() {
     <Car/>
     <Foods/> */}
     {/* <ToDoList/> */}
-    <EffectUse/>
-      
+    {/* <EffectUse/> */}
+      <DigitalClock/>
     </>
   );
 }
