@@ -7,7 +7,8 @@
 // import Food from './Food.jsx'
 // import Car from './Car.jsx'
 // import Foods from './Foods.jsx'
-import ToDoList from './ToDoList.jsx'
+// import ToDoList from './ToDoList.jsx'
+import EffectUse from "./EffectUse";
 
 
 function App() {
@@ -23,8 +24,8 @@ function App() {
     <Food/>
     <Car/>
     <Foods/> */}
-    <ToDoList/>
-    
+    {/* <ToDoList/> */}
+    <EffectUse/>
       
     </>
   );
