@@ -211,7 +211,7 @@ body {
   display: flex;
   justify-content: center;  /* horizontal center */
   align-items: center;      /* vertical center */
-  background: url('assets/image/madara.png') no-repeat center center/cover;
+  background: url('assets/image/mekay.jpg') no-repeat center center/cover;
 }
 
 .digital-clock {
