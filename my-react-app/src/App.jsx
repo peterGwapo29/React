@@ -9,7 +9,8 @@
 // import Foods from './Foods.jsx'
 // import ToDoList from './ToDoList.jsx'
 // import EffectUse from "./EffectUse";
-import DigitalClock from "./DigitalClock";
+// import DigitalClock from "./DigitalClock";
+import ComponentA from "./ComponentA";
 
 
 function App() {
@@ -27,7 +28,9 @@ function App() {
     <Foods/> */}
     {/* <ToDoList/> */}
     {/* <EffectUse/> */}
-      <DigitalClock/>
+      {/* <DigitalClock/> */}
+
+      <ComponentA/>
     </>
   );
 }
