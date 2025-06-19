@@ -11,7 +11,8 @@
 // import EffectUse from "./EffectUse";
 // import DigitalClock from "./DigitalClock";
 // import ComponentA from "./ComponentA";
-import UseRefLesson from "./UseRefLesson";
+// import UseRefLesson from "./UseRefLesson";
+import StopWatch from "./StopWatch";
 
 
 function App() {
@@ -32,7 +33,8 @@ function App() {
       {/* <DigitalClock/> */}
 
       {/* <ComponentA/> */}
-      <UseRefLesson/>
+      {/* <UseRefLesson/> */}
+      <StopWatch/>
     </>
   );
 }

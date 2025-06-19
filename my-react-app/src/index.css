@@ -225,7 +225,69 @@ body {
   text-align: center;
   text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.5);
 } */
-.box{
+/* .box{
   border: 1px solid #000;
   padding: 25px;
+} */
+
+/* StopWatch.css */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('assets/image/mekay.jpg') no-repeat center center/cover;
+}
+
+.watch {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px 60px;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  backdrop-filter: blur(3px);
+  color: #fff;
+}
+
+.watch span {
+  display: block;
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  font-family: monospace;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn button {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.btn button:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: scale(1.05);
+}
+
+.btn button:active {
+  transform: scale(0.95);
+  background: rgba(255, 255, 255, 0.35);
+}
+.watch img{
+  height: 150px;
 }
