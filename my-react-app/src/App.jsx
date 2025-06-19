@@ -10,7 +10,8 @@
 // import ToDoList from './ToDoList.jsx'
 // import EffectUse from "./EffectUse";
 // import DigitalClock from "./DigitalClock";
-import ComponentA from "./ComponentA";
+// import ComponentA from "./ComponentA";
+import UseRefLesson from "./UseRefLesson";
 
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
     {/* <EffectUse/> */}
       {/* <DigitalClock/> */}
 
-      <ComponentA/>
+      {/* <ComponentA/> */}
+      <UseRefLesson/>
     </>
   );
 }
