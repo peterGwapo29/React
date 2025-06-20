@@ -12,12 +12,18 @@
 // import DigitalClock from "./DigitalClock";
 // import ComponentA from "./ComponentA";
 // import UseRefLesson from "./UseRefLesson";
-import StopWatch from "./StopWatch";
+// import StopWatch from "./StopWatch";
+// import {Route, Routes } from 'react-router-dom'
+import Navbar from './components/Navbar'
+// import Products from './pages/Products'
+// import About from './pages/About'
+// import Home from './pages/Home'
 
 
 function App() {
   return(
     <>
+    <Navbar></Navbar>
       {/* <Header/> */}
       {/* <Student/> */}
       {/* <Button/> */}
@@ -34,7 +40,7 @@ function App() {
 
       {/* <ComponentA/> */}
       {/* <UseRefLesson/> */}
-      <StopWatch/>
+      {/* <StopWatch/> */}
     </>
   );
 }
